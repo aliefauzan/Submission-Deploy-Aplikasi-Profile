@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Healthy Life</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>Healthy Life</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#content">Home</a></li>
+                <li><a href="#services-title">Solution</a></li>
+                <li><a href="#body-check">Body Check</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <section class="banner">
+                <img src="assets/img/banner.jpg" alt="Healthy Food and Equipment">
+                <div class="banner-utama">
+                    <h2>Health is Wealth</h2>
+                </div>
+            </section>
+
+            <article>
+                <section id="services-title" class="services">
+                    <div class="services-title">
+                        <h2>What you can do to get Healthy Life?</h2>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/exercise.jpg" nalt="Our Services">
+                        <h3>Exercise</h3>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/healthy_food.jpg" alt="Client Testimonials">
+                        <h3>Eat Healthy Food</h3>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/img/medical_checkup.jpg" alt="Body Check">
+                        <h3>Medical Check-ups</h3>
+                    </div>
+                </section>
+            </article>
+        </div>
+
+        <aside>
+            <figure>
+                <img src="assets/img/obese1.jpg" alt="Profile Image">
+                <figcaption>Hello, I'm Sukimin, I`m Obese</figcaption>
+            </figure>
+        </aside>
+
+        <section id="body-check">
+            <article>
+                <h2>Did you have ideal body?</h2>
+                <p>BMI is a simple indicator to measure a person's body fat based on weight and height. The BMI value is
+                    used to determine whether a person has a healthy weight.</p>
+                <div class="form-container">
+                    <label for="gender">Gender</label>
+                    <select id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+
+                    <label for="weight">Weight (kg)</label>
+                    <input type="number" id="weight" placeholder="Enter your weight" />
+
+                    <label for="height">Height (cm)</label>
+                    <input type="number" id="height" placeholder="Enter your height" />
+
+                    <button id="submit">Submit</button>
+                </div>
+                <div class="result">
+                    <h2>Result</h2>
+                    <p id="result-text"></p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>© Project Alief</p>
+    </footer>
+</body>
+
+</html>
